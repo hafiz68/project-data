@@ -1,0 +1,264 @@
+.top-cards-style{
+display: flex;
+font-family: 'Bwmodel';
+font-weight: bold;
+margin-top: 2%;
+/* justify-content: space-evenly; */
+
+}
+
+.smart-contract{
+    border-color: #5a5d63;
+    background-color: #1d1d1d;
+    color: white;
+    height: 400px;
+    border-radius: 12px;
+    /* padding: 0 20px; */
+    
+}
+.smart-contract h1{
+font-size: 27px;
+padding-top: 4%;
+
+}
+.smart-contract img{
+    padding-top: 12%;
+}
+.smart-contract p{
+    padding-top: 4%;
+}
+
+
+.skills-matter{
+    border-color: #5a5d63;
+    background-color: #1d1d1d;
+    color: white;
+    height: 400px;
+    border-radius: 12px;
+    /* padding: 0 20px; */
+
+
+
+}
+
+.skills-matter h1{
+    font-size: 27px;
+    padding-top: 4%;
+    }
+    .skills-matter img{
+        padding-top: 12%;
+    }
+    .skills-matter p{
+        padding-top: 4%;
+    }
+
+.easy-integration{
+    border-color: #5a5d63;
+    background-color: #1d1d1d;
+    color: white;
+    height:400px;
+    border-radius: 12px;
+    /* padding: 0 20px; */
+
+
+}
+.easy-integration h1{
+    font-size: 27px;
+    padding-top: 4%;    
+}
+    .easy-integration img{
+        padding-top: 12%;
+    }
+    .easy-integration p{
+        padding-top: 4%;
+    }
+.much-more{
+    border-color: #5a5d63;
+    background-color: #1d1d1d;
+    color: white;
+    height: 400px;
+    border-radius: 12px;
+    /* padding: 0 20px; */
+
+
+}
+.much-more h1{
+    font-size: 27px;
+    padding-top: 4%; 
+  }
+    .much-more img{
+        padding-top: 12%;
+    }
+    .much-more p{
+        padding-top: 4%;
+    }
+
+.bottom-cards-style{
+    display: flex;
+/* justify-content: center; */
+/* flex-direction: row; */
+
+}
+
+@media screen and (max-width: 900px) {
+    .smart-contract{
+        border-color: #5a5d63;
+        background-color: #1d1d1d;
+        color: white;
+        height: 350px;
+        border-radius: 12px;
+    margin-bottom: 6%;
+        /* padding: 0 20px; */
+        
+    }
+
+    .skills-matter{
+        border-color: #5a5d63;
+        background-color: #1d1d1d;
+        color: white;
+        height: 350px;
+        border-radius: 12px;
+    margin-bottom: 6%;
+        /* padding: 0 20px; */
+    }
+
+    .easy-integration{
+        border-color: #5a5d63;
+        background-color: #1d1d1d;
+        color: white;
+        height: 350px;
+        border-radius: 12px;
+    margin-bottom: 6%;
+        /* padding: 0 20px; */
+    
+    
+    }
+    .much-more{
+        border-color: #5a5d63;
+        background-color: #1d1d1d;
+        color: white;
+        height: 350px;
+        border-radius: 12px;
+    margin-bottom: 6%;
+        /* padding: 0 20px; */
+    
+    
+    }
+
+
+  }
+
+  /* @media screen and (max-width:800px){
+    .smart-contract{
+        border-color: #5a5d63;
+        background-color: #1d1d1d;
+        color: white;
+        height: 600px;
+        border-radius: 12px;
+        
+    }
+    .smart-contract h1{
+    font-size: 20px;
+    padding-top: 2%;
+    
+    }
+    .smart-contract img{
+        padding-top: 8%;
+    }
+    .smart-contract p{
+        padding-top: 2%;
+    }
+    
+
+
+
+    .skills-matter{
+        border-color: #5a5d63;
+        background-color: #1d1d1d;
+        color: white;
+        height: 600px;
+        border-radius: 12px;
+    
+    
+    
+    }
+    
+    .skills-matter h1{
+        font-size: 20px;
+        padding-top: 2%;
+        }
+        .skills-matter img{
+            padding-top: 8%;
+        }
+        .skills-matter p{
+            padding-top: 2%;
+        }
+    
+    .easy-integration{
+        border-color: #5a5d63;
+        background-color: #1d1d1d;
+        color: white;
+        height:600px;
+        border-radius: 12px;
+    
+    
+    }
+    .easy-integration h1{
+        font-size: 16px;
+        padding-top: 2%;    
+    }
+        .easy-integration img{
+            padding-top: 8%;
+        }
+        .easy-integration p{
+            padding-top: 2%;
+        }
+    .much-more{
+        border-color: #5a5d63;
+        background-color: #1d1d1d;
+        color: white;
+        height: 600px;
+        border-radius: 12px;
+    
+    
+    }
+    .much-more h1{
+        font-size: 20px;
+        padding-top: 2%; 
+      }
+        .much-more img{
+            padding-top: 8%;
+        }
+        .much-more p{
+            padding-top: 2%;
+        }
+    
+
+
+  } */
+
+
+
+  
+  /* @media screen and (max-width:1100px){
+    .smart-contract{
+        border-color: #5a5d63;
+        background-color: #1d1d1d;
+        color: white;
+        height: 400px;
+        border-radius: 12px;
+        
+    }
+    .smart-contract h1{
+    font-size: 20px;
+    padding-top: 2%;
+    
+    }
+    .smart-contract img{
+        padding-top: 12%;
+    }
+    .smart-contract p{
+        padding-top: 4%;
+    }
+    
+  } */

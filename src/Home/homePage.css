@@ -1,0 +1,313 @@
+@font-face {
+  font-family: Azonix;
+  src: url(../Assests/Azonix.otf);
+}
+@font-face {
+  font-family: Rubik;
+  src: url(../Assests/Rubik-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Bwmodel;
+  src: url(../Assests/BwModelicaCyrillicDEMO-Regular.ttf);
+}
+/* .homePage_bbackground__color {
+  background-color: black;
+  font-family: 'bwmodel';
+  /* padding-left: 12%; */
+
+/* } */ 
+
+.homePage_bbackground__color {
+  /* opacity: 0.2; */
+  /* background: rgba(3, 172, 240, 0.5); */
+  /* opacity: 0.6; */
+  /* background:linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url("../Assests/renders/render\ 11.png"); */
+/* background-image: url("../Assests/icons/faded\ render.png"); */
+/* background-image: url("../Assests/icons/faded\ render.png"); */
+background-color: black;
+height: 90vh;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+
+.header-remote-image img{
+height: 600px;
+width: 600px;
+padding-top: 10%;
+}
+.homePage_content__style  h1{
+  font-family: Azonix;
+  color: #3486eb;
+
+}
+.text-content{
+  padding: 0 150px;
+  display: flex;
+  flex-direction: column;
+}
+.homePage_content__style h2 {
+  font-family: Bwmodel;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-top: 30px;
+}
+ p {
+    font-family: Bwmodel;
+    line-break: normal;
+    letter-spacing: 0.5px;
+  }
+.homePage_content__style {
+  /* margin-top: 12%; */
+  display: flex;
+  align-items: center;
+  padding-top: 4%;
+  color: white;
+  /* padding-left: 8%; */
+}
+.homePage_image {
+  width: 100%;
+}
+
+.homePage_button__style {
+  margin-top: 12%;
+  display: flex;
+}
+.homePage_first__button {
+  font-family: Courier;
+  background-color:  #3486eb;
+  /* border: 1px solid  #a0a6ad; */
+  color: #fff;
+  box-shadow: 0px 8px 9px 0px rgb(96 94 94 / 17%);
+  height: 52px;
+  width: 150px;
+  padding: 10px 10px;
+  /* border-radius: 30px; */
+  font-size: 20px;
+}
+.homePage_Second__button {
+  font-family: Montserrat;
+  margin-left: 3%;
+  background-color:  transparent;
+  border: 1px solid  #a0a6ad;
+  color: white;
+  /* box-shadow: 0px 8px 9px 0px rgb(96 94 94 / 17%); */
+  height: 52px;
+  width: 150px;
+  padding: 10px 10px;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+
+.home_content h1 {
+   /* font-style: Azonix; */
+
+  /* color:  #3d12b5; */
+  /* font-size: medium; */
+  /* font-weight: 200; */
+}
+.homePage_contract {
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+.homePage_contract h2 {
+  font-family: Bwmodel;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.homePage_token__section {
+  font-family: Montserrat;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: 1px solid rgb(114, 91, 196);
+  border-radius: 25px;
+  padding-top: 2%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  background-clip: content-box;
+  align-items: center !important;
+  color: white;
+}
+
+
+
+.btn-grad {background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px rgb(0, 0, 0);
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   background-color: black;
+   text-decoration: none;
+   /* box-shadow: 0 0 20px rgb(0, 0, 0); */
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+
+.home_content{
+  margin-top: 2%;
+
+
+}
+.homePage_bbackground__color {
+
+/* background-image: url("../Assests/icons/faded\ render.png"); */
+height: 70vh;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+.home_content h2 {
+  font-family: Montserrat;
+  padding-top: 2%;
+  font-weight: bold;
+}
+.home_content p {
+  font-family: Montserrat ;
+  padding-top: 2%;
+}
+.header-remote-image img {
+  height: 500px;
+  width: 600px;
+  padding-top: 4%;
+  padding-left: 8%;
+
+}
+.text-content {
+  padding: 0 98px;
+  display: flex;
+  flex-direction: column;
+}
+
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+
+  .home_content  {
+    padding-top: 2%;
+    font-weight: bold;
+  }
+ 
+  .home_content h2 {
+    font-family: Montserrat;
+    padding-top: 2%;
+    font-weight: bold;
+  }
+  .home_content p {
+    font-family: Montserrat ;
+    padding-top: 2%;
+    /* padding-right: 2%; */
+    margin-right: 2%;
+  }
+  .text-content {
+    padding: 0 60px;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+  .header-remote-image img {
+    height: 400px;
+    width: 400px;
+    padding-top: 4%;
+    padding-left: 2%;
+}
+
+
+}
+
+
+@media screen and (max-width: 400px) {
+
+  .header-remote-image img {
+    height: 300px;
+    width: 300px;
+    padding-top: 4%;
+}
+
+
+}
+
+/* @media screen and (max-width: 800px) {
+
+  .header-remote-image img {
+    height: 400px;
+    width: 400px;
+    padding-top: 4%;
+}
+.text-content {
+  padding: 0 66px;
+  display: flex;
+  flex-direction: column;
+}
+.vision_section img {
+  height: 430px;
+    width: 511px;
+    padding-top: 2%;
+}
+
+} */
+
+
+/* @media screen and (max-width: 2700px) {
+
+
+  .header-remote-image img {
+    height: 651px;
+    width: 677px;
+    padding-top: 10%;
+    margin-left: 24%;
+}
+
+.text-content {
+  padding: 0 150px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 12%;
+}
+
+
+
+} */

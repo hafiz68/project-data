@@ -1,0 +1,59 @@
+
+
+.slider {
+    margin: 0px 20%;
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+    background-color: black;
+}
+/* .card-nav{
+    background-color: black;
+    margin: 0;
+} */
+
+
+
+
+
+
+
+.inner{
+    position: absolute;
+    animation: mymove 25s infinite;
+  }
+  .inner  img{
+      margin-left: 40px;
+      /* width: 400px; */
+  }
+  
+  .heading-style{
+    font-family: Azonix;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 7%;
+    padding-bottom: 4%;
+}
+
+@keyframes mymove {
+  
+    0% { left: 0%;}
+     100% { left: -300%;}
+   }
+/*    
+.card-nav{
+    background-color: black;
+    margin: 0;
+    padding: 50px 0px;
+
+} */
+
+@media only screen and (max-width: 900px) {
+  
+    .heading-style{
+        margin-top: 4%;
+        margin-bottom: 6%;
+    }
+
+  }

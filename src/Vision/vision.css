@@ -1,0 +1,363 @@
+.vision_heading__style {
+  font-family: Azonix;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  padding-top: 6%;
+  padding-bottom: 1%;
+}
+.visionImage_style {
+  /* width: 100%; */
+}
+.vision_section {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-left: 2%;
+
+}
+.vision_content{
+  padding-top: 2%;
+}
+.vision_content h2{
+  font-family: Azonix;
+}
+.vision_content p{
+  font-family: Bwmodel;
+    padding-top: 10px;}
+.vision_content button {
+  width: fit-content;
+  /* margin-top: 4%; */
+  padding-top: 2%;
+}
+
+.visionCard__style {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 2%;
+  padding-top: 4%;
+}
+.vision_card_design {
+  border: 1px solid #1d1d1d;
+  border-radius: 10px;
+  padding: 20px;
+  height: 100%;
+
+  background-color: #1d1d1d;
+  color: white;
+}
+.vision_middle_card {
+  background-color:#3486eb;
+  border-color: #5a5d63;
+  padding-bottom: 0;
+  border-radius: 10px;
+color: white;
+
+padding-top: 16%;
+/* padding-left: 4%; */
+/* align-content: center; */
+  /* padding: 20px; */
+  /* display: flex;
+  justify-content: center; */
+}
+.vision_middle_card img{
+  padding-top: 4%;
+}
+.vision_middle_card p{
+  padding-top: 2%;
+}
+.middle-img-section{
+  display: flex;
+  justify-content: center;
+}
+.vision-small-card-One{
+  height: 900px;
+  /* padding: 0%;
+  margin: 0%; */
+}
+/* .vision-small-card-One:hover{
+  -ms-transform: scale(1.01); 
+  -webkit-transform: scale(1.01); 
+  transform: scale(1.01); 
+} */
+/* .vision-small-card-One:hover{
+  border: 2px solid #3486eb;
+  background-color: gray;
+}
+ */
+
+
+.vision-small-card-two{
+  height: 400px;
+
+
+  margin-top: 8%;
+}
+
+
+.vision-small-cardSectionTwo-Two{
+  height: 400px;
+ margin-top: 8%;
+
+
+}
+
+.vision_card_designSectionTwo-One {
+  height: 900px;
+    border: 1px solid #1d1d1d;
+  padding-left: 12%;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #1d1d1d;
+  color: white;
+  margin-left: 4%;
+}
+.vision-small-cardSectionTwo-Two{
+  height: 400px;
+  border: 1px solid #1d1d1d;
+padding-left: 12%;
+border-radius: 10px;
+padding: 20px;
+background-color: #1d1d1d;
+color: white;
+margin-left: 4%;
+
+}
+.background-color-vision{
+  background-color: black;
+}
+.cards-font-style p{
+  font-family: Montserrat;
+}
+.cards-font-style h2{
+font-family: Azonix;
+}
+
+
+.vision-button-style{
+  font-family: Montserrat;
+  font-style: bold;
+  /* margin-left: 2%; */
+  background-color: #3486eb;
+  border: 1px solid  #a0a6ad;
+  color: #fff;
+  box-shadow: 0px 8px 9px 0px rgb(96 94 94 / 17%);
+  height:50px;
+  width: 100px;
+  border-radius: 30px;
+  font-size: 17px;
+}
+.button-icon-style{
+  padding-left: 1%;
+  padding-bottom: 1%;
+}
+.vision_card_design img{
+padding-top: 12%;
+}
+.vision_card_design h2{
+  padding-top: 12%;
+  }
+
+  .vision_card_design p{
+    padding-top: 5%;
+    }
+
+ .vision_card_designSectionTwo-One img{
+  padding-top: 12%;
+
+ }   
+ 
+ .vision_card_designSectionTwo-One h2{
+  padding-top: 12%;
+
+ }  
+ 
+ .vision_card_designSectionTwo-One p{
+  padding-top: 5%;
+
+ }
+ .vision-second-card img{
+  padding-top: 38%;
+
+ } 
+ .vision-second-card h2{
+  padding-top: 12%;
+
+ } 
+ .vision-second-card p{
+  padding-top: 5%;
+
+ } 
+ 
+ 
+
+/* button-style */
+
+
+
+
+
+.white-paper-button-style{
+ padding-top: 10px;
+ /* margin: 0; */
+ /* padding-bottom: 12%; */
+}
+.white-paper-button-style  a {
+  position: relative;
+  display: inline-block;
+  padding: 15px 20px;
+  /* margin: 40px 0; */
+  color: #ededed;
+  border-radius: 20px;
+  font-family: 'Bwmodel';
+  font-weight: 900;
+  border: rgb(255, 255, 255);
+  background-color:#3486eb;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  transition: 0.5s;
+  letter-spacing: 1px;
+  overflow: hidden;
+  /* margin-right: 50px; */
+}
+.white-paper-button-style a:hover {
+  background: #03e9f4;
+  color: #050801;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 200px #03e9f4;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+.white-paper-button-style a:nth-child(1) {
+  /* filter: hue-rotate(270deg); */
+}
+/* .content h5:nth-child(2) {
+  filter: hue-rotate(110deg);
+} */
+.white-paper-button-style a span {
+  position: absolute;
+  display: block;
+}
+/* .white-paper-button-style a span:nth-child(1) {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #00a2aa);
+  animation: animate1 1s linear infinite;
+} */
+/* @keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 100%;
+  }
+} */
+
+
+
+
+@media screen and (max-width: 900px) {
+  .vision_content{
+ margin-top: 4%;
+    padding-left: 4%;
+  }
+  .vision_content button{
+     margin-bottom: 4%;
+    }
+   .vision-small-card-One{
+     margin-left: 2%;
+     height: 600px;
+
+   }
+   .vision-small-card-two{
+    margin-left: 2%;
+    height: 350px;
+
+
+   }
+  .vision_middle_card{
+    margin-top: 6%;
+    margin-left: 2%;
+  }
+  .vision_card_designSectionTwo-One{
+    margin-top: 4%;
+    margin-left: 2%;
+    height: 600px;
+
+  }
+.vision-small-cardSectionTwo-Two{
+  height: 350px;
+  margin-top: 4%;
+  margin-left: 2%;
+
+}.vision_middle_card img{
+  width: 80%;
+}
+.vision_section img{
+  width: 100%;
+}
+.vision_section button{
+  margin-left: 2%;
+}
+.button-icon-style{
+ display: none;
+}
+.vision-second-card img{
+  padding-top: 2%;
+
+ } 
+ .vision-second-card h2{
+  padding-top: 8%;
+
+ } 
+ .vision-second-card p{
+  padding-top: 2%;
+
+ } 
+ .vision_card_designSectionTwo-One img{
+  padding-top: 2%;
+
+ }   
+ 
+ .vision_card_designSectionTwo-One h2{
+  padding-top: 8%;
+
+ }  
+ 
+ .vision_card_designSectionTwo-One p{
+  padding-top: 2%;
+
+ }
+ .vision_card_design img{
+  padding-top: 2%;
+  }
+  .vision_card_design h2{
+    padding-top: 8%;
+    }
+  
+    .vision_card_design p{
+      padding-top: 2%;
+      }
+  
+ 
+}
+
+
+
+/* @media screen and (max-width: 2700px) {
+
+
+  .vision_heading__style {
+    font-family: Azonix;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 1%;
+  }
+} */
